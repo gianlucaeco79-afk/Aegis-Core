@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegis-core"
+version = "15.5.0"
+description = "Ethical Decision Engine for real-time algorithmic bias detection (Gini Index based)."
+readme = "README.md"
+authors = [{name = "Gianluca Ecora", email = "gianlucaeco@gmail.com"}]
+license = {file = "LICENSE"}
+keywords = ["ai-ethics", "bias-detection", "governance", "open-source", "gini-index"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "fastapi",
+    "pydantic",
+    "httpx",
+    "prometheus-client"
+]
+
+[project.urls]
+Homepage = "https://github.com/gianlucaeco79-afk/Aegis-Core" 
+Documentation = "https://github.com/gianlucaeco79-afk/Aegis-Core#documentazione-e-filosofia-etica"
+Repository = "https://github.com/gianlucaeco79-afk/Aegis-Core"
