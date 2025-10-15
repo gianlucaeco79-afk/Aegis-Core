@@ -31,5 +31,5 @@ Installazione delle dipendenze necessarie:
 ```bash
 pip install numpy fastapi pydantic httpx prometheus-client
 
-Versione archiviata su Zenodo:
-[https://doi.org/10.5281/zenodo.17358074
+Versione archiviata su Zenodo: [10.5281/zenodo.17358074](https://doi.org/10.5281/zenodo.17358074)
+
