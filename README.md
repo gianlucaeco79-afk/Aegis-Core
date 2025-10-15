@@ -29,6 +29,7 @@ Il codice sorgente è fornito nel file `ethical_agent_v15_5.py`.
 
 Installazione delle dipendenze necessarie:
 ```bash
-pip install numpy fastapi pydantic httpx prometheus-client```
+pip install numpy fastapi pydantic httpx prometheus-client
+```
 
-Versione archiviata su Zenodo: [10.5281/zenodo.17358074](https://doi.org/10.5281/zenodo.17358074)
+[10.5281/zenodo.17358074](https://doi.org/10.5281/zenodo.17358074)
